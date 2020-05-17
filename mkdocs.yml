@@ -1,0 +1,32 @@
+site_name: Flint Documentation
+site_description: Dev Center | Documentation
+site_author: Naitian Liu
+site_url: https://flintdev.github.io/docs/
+
+repo_name: 'flintdev/flint'
+repo_url: https://github.com/flintdev/flint
+
+copyright: 'Copyright &copy; 2019 - 2020 Naitian Liu'
+docs_dir: src/
+site_dir: docs/
+
+theme:
+  name: material
+  logo: "img/icon.png"
+  palette:
+    primary: 'White'
+    accent: 'Indigo'
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+  feature:
+    tabs: true
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - meta
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
